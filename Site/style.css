@@ -1,0 +1,57 @@
+
+div{
+    width: 500px;
+    margin: 80px auto auto auto;
+    background-color: rgb(196, 192, 192);
+}
+
+
+p{
+    font-family: 'Inner Sans', sans-serif;
+    color: rgb(85, 70, 70);
+    line-height: 1.2;
+}
+
+a{
+    background-color: rgb(50, 187, 57);
+    color: white;
+    font-style: italic;
+}
+h1{
+    background: linear-gradient(to right, rgb(255, 103, 103), rgb(255, 191, 255));
+    color: linear-gradient(to right, rgb(255, 191, 255), rgb(255, 103, 103));
+    margin: auto;
+}
+h2{
+    margin: 10px 10px 10px 10px;
+    color: rgb(255, 191, 255);
+    background-color: rgb(255, 103, 103);
+}
+
+h3{
+    margin: 15px 15px 15px 15px;
+    background-color: rgb(253, 174, 174);
+    color:rgb(121, 98, 98);
+}
+
+img{
+    filter: invert(100%);
+    width: 400px;
+    hight: 600px;
+    border-radius: 10px;
+}
+h4{
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(103, 106, 255);
+    color: rgb(255, 255, 255);
+}
+h5{
+    margin: 25px 25px 25px 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+li{
+    background-color: rgb(255, 103, 174);
+    font-style: bold;
+    line-height: 1.5;
+}
