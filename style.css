@@ -1,57 +1,42 @@
-
-div{
-    width: 500px;
-    margin: 80px auto auto auto;
-    background-color: rgb(196, 192, 192);
+body {
+    background: #1a1a1a;
+    margin: 0;
+    padding: 24px;
+    box-sizing: border-box;
 }
 
-
-p{
-    font-family: 'Inner Sans', sans-serif;
-    color: rgb(85, 70, 70);
-    line-height: 1.2;
+.row{
+    display: flex; 
+    flex-direction: row; 
+    gap: 22px;
 }
 
-a{
-    background-color: rgb(50, 187, 57);
-    color: white;
-    font-style: italic;
-}
-h1{
-    background: linear-gradient(to right, rgb(255, 103, 103), rgb(255, 191, 255));
-    color: linear-gradient(to right, rgb(255, 191, 255), rgb(255, 103, 103));
-    margin: auto;
-}
-h2{
-    margin: 10px 10px 10px 10px;
-    color: rgb(255, 191, 255);
-    background-color: rgb(255, 103, 103);
+#row{
+    display: flex; 
+    flex-direction: row; 
+    gap: 22px;
 }
 
-h3{
-    margin: 15px 15px 15px 15px;
-    background-color: rgb(253, 174, 174);
-    color:rgb(121, 98, 98);
+.col{
+    display: flex; 
+    flex-direction: column; 
+    gap: 22px;
 }
 
-img{
-    filter: invert(100%);
-    width: 400px;
-    hight: 600px;
-    border-radius: 10px;
+.box {
+    background: #FFFFFF;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
-h4{
-    margin: 20px 20px 20px 20px;
-    background-color: rgb(103, 106, 255);
-    color: rgb(255, 255, 255);
-}
-h5{
-    margin: 25px 25px 25px 25px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-}
-li{
-    background-color: rgb(255, 103, 174);
-    font-style: bold;
-    line-height: 1.5;
-}
+
+#b1 { width: 453px; height: 673px; }
+#b2 { width: 480px; height: 403px; }
+#b3 { width: 505px; height: 403px; }
+#b4 { width: 457px; height: 751px; }
+#b5 { width: 453px; height: 332px; }
+#b6 { width: 1007px; height: 607px; }
+#b7 { width: 955px; height: 408px; }
+#b8 { width: 505px; height: 408px; }
+#b9 { width: 457px; height: 688px; }
