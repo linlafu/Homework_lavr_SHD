@@ -10,10 +10,7 @@ body {
     line-height: 1.5;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
+
 
 
 .top {
@@ -46,13 +43,8 @@ a {
     gap: 50px;
 }
 
-
-.block.reverse {
-    flex-direction: row-reverse;
-}
-
 .text {
-    width: 42%;
+    width: 40%;
 }
 
 .text h1 {
@@ -113,7 +105,7 @@ a {
 }
 
 .btn {
-    display: inline-block;
+    
     padding: 14px 28px;
     border-radius: 8px;
     font-size: 15px;
